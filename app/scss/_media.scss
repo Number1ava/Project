@@ -7,8 +7,11 @@
   }
   .header__image {
     &-photo {
-      max-width: 600px;
+      max-width: 480px;
     }
+  }
+  .slick-slide {
+    margin: 0 5px;
   }
 }
 @media (max-width: 1200px) {
@@ -66,13 +69,13 @@
       font-size: 28px;
     }
     .sub__title {
-      font-size: 30px;
+      font-size: 28px;
     }
     &__image {
       max-width: 100%;
       margin-bottom: 0px;
       &-photo {
-        max-width: 600px;
+        max-width: 500px;
         border-radius: 4px;
       }
     }
@@ -373,6 +376,9 @@
   .person__container-inner {
     left: 0px;
   }
+  .slick-slide {
+    margin: 0 20px;
+  }
 }
 @media (max-width: 782px) {
   .blocks {
@@ -417,6 +423,9 @@
   .person__container-inner {
     left: -40px;
   }
+  .slick-slide {
+    margin: 0 10px;
+  }
 }
 @media (max-width: 641px) {
   .nav {
@@ -436,7 +445,7 @@
     &__image {
       margin-bottom: 80px;
       &-photo {
-        max-width: 450px;
+        max-width: 430px;
       }
     }
   }
@@ -581,6 +590,9 @@
       max-width: 90%;
     }
   }
+  .books__sport > img {
+    height: 320px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -624,6 +636,17 @@
       }
     }
   }
+  .books__sport > img {
+    height: 300px;
+  }
+}
+@media (max-width: 520px) {
+  .slick-slide {
+    width: 380px;
+  }
+  .books__sport > img {
+    height: 380px;
+  }
 }
 @media (max-width: 480px) {
   .nav {
@@ -656,7 +679,7 @@
     &__image {
       margin-bottom: 60px;
       &-photo {
-        max-width: 348px;
+        max-width: 330px;
       }
     }
   }
@@ -836,5 +859,8 @@
     &__link {
       font-size: 14px;
     }
+  }
+  .books__sport > img {
+    height: 300px;
   }
 }
