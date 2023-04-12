@@ -253,8 +253,8 @@ window.addEventListener('DOMContentLoaded', () => {
     $('.sliders__Book').slick({
       infinite: true,
       arrows: false,
-      speed: 600,
-      autoplaySpeed: 3000,
+      speed: 500,
+      autoplaySpeed: 2900,
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
