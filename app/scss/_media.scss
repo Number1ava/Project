@@ -593,6 +593,9 @@
   .books__sport > img {
     height: 320px;
   }
+  .skiing__title {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -773,6 +776,9 @@
       font-size: 15px;
     }
   }
+  .skiing__title {
+    font-size: 22px;
+  }
 }
 @media (max-width: 380px) {
   .nav {
@@ -862,5 +868,8 @@
   }
   .books__sport > img {
     height: 300px;
+  }
+  .skiing__title {
+    font-size: 20px;
   }
 }

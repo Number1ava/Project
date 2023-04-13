@@ -883,4 +883,12 @@ button {
 .slick-slide {
   margin: 0 10px;
 }
+
+.skiing {
+  min-height: 400px;
+  padding: 20px 0px 40px 0px;
+  &__name {
+    font-weight: bold;
+  }
+}
 @import "media";
