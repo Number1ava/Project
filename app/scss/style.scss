@@ -890,5 +890,70 @@ button {
   &__name {
     font-weight: bold;
   }
+  &__image {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  &__imgBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+}
+
+.achievement {
+  min-height: 400px;
+  padding: 20px 0px 40px 0px;
+  &__img {
+    width: 380px;
+    height: 260px;
+    &--height {
+      height: 440px;
+    }
+  }
+  &__imgBlock {
+    margin-bottom: 40px;
+  }
+  &__Bigtext {
+    margin: 0px 0px 40px 0px;
+    &--center {
+      text-align: center;
+      margin: 40px;
+    }
+    &--center > span {
+      display: block;
+      text-align: start;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+  &__BigImg {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 60px;
+  }
+  &__title {
+    font-size: 26px;
+  }
+}
+.achivText__main {
+  display: flex;
+  max-width: 44%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 66px;
+  & > article {
+    max-width: 306px;
+  }
+  & > img {
+    max-width: 400px;
+    height: 340px;
+    border-radius: 5px;
+  }
 }
 @import "media";
