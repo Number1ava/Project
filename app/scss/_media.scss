@@ -59,6 +59,9 @@
   .news_block {
     max-width: 300px;
   }
+  .games {
+    max-width: 74%;
+  }
 }
 @media (max-width: 1061px) {
   .header__nav {
@@ -90,7 +93,7 @@
   }
 
   .section__title {
-    padding: 20px 0 50px 0;
+    padding: 40px 0 70px 0;
   }
   .counter {
     &__main {
@@ -357,6 +360,9 @@
   .news_block {
     max-width: 270px;
   }
+  .games {
+    max-width: 84%;
+  }
 }
 @media (max-width: 972px) {
   .figure {
@@ -407,6 +413,9 @@
   }
   .news_block {
     max-width: 230px;
+  }
+  .games {
+    max-width: 94%;
   }
 }
 @media (max-width: 782px) {
@@ -465,6 +474,9 @@
   .news_block {
     max-width: 58%;
     margin-bottom: 40px;
+  }
+  .games {
+    max-width: 85%;
   }
 }
 @media (max-width: 641px) {
@@ -662,6 +674,9 @@
   .news_block {
     max-width: 70%;
   }
+  .games {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 578px) {
@@ -775,6 +790,7 @@
   }
 
   .counter {
+    padding: 0;
     &__main {
       max-width: 80%;
       &-count {
@@ -872,7 +888,15 @@
       margin: 19px 0;
     }
   }
+  .news {
+    &__img {
+      height: 220px;
+    }
+  }
   .news_block {
+    max-width: 95%;
+  }
+  .games {
     max-width: 100%;
   }
 }
@@ -893,7 +917,7 @@
     }
     &__image {
       &-photo {
-        max-width: 284px;
+        max-width: 270px;
       }
     }
   }
@@ -976,7 +1000,20 @@
   }
   .news {
     &__img {
-      height: 200px;
+      height: 180px;
     }
+  }
+  .news_block {
+    max-width: 96%;
+  }
+  .games__img {
+    max-width: 130px;
+    height: 130px;
+  }
+  .games__block {
+    margin-bottom: 20px;
+  }
+  .resources__title {
+    font-size: 26px;
   }
 }

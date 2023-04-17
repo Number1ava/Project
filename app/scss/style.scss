@@ -97,7 +97,7 @@ h6 {
   font-weight: 400;
   font-size: 34px;
   letter-spacing: 0.2px;
-  padding: 40px 0 80px 0;
+  padding: 80px 0 40px 0;
   color: white;
 }
 
@@ -815,6 +815,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    margin-bottom: 60px;
   }
   .video__block {
     flex: 1 1 300px;
@@ -843,6 +844,24 @@ button {
     width: 70px;
   }
 }
+
+.games {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 66%;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.games__block {
+  margin-bottom: 40px;
+}
+.games__img {
+  max-width: 160px;
+  height: 160px;
+  border-radius: 5px;
+}
+
 
 // book.html
 
@@ -1010,4 +1029,5 @@ button {
 .news__descriptions {
   margin-top: 14px;
 }
+
 @import "media";
