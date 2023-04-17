@@ -956,4 +956,36 @@ button {
     border-radius: 5px;
   }
 }
+
+// achive slider
+
+.achieve {
+  margin: 20px 0 50px 0;
+}
+.achieve__container {
+  display: flex;
+  justify-content: center;
+}
+.achieve__img {
+  width: 220px;
+  height: 240px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 8px solid #004fa5;
+}
+.achieve__descr {
+  text-align: center;
+  font-size: 18px;
+}
+.achieve__name {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #004fa5;
+}
+.achieve__job {
+  max-width: 190px;
+  margin: 0 auto;
+}
+
 @import "media";
