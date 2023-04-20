@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учителя</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body class="hidden">
+  <div class="overlay"></div>
+  <header class="header header__background">
+    <div class="container__header">
+      <nav class="nav header__nav">
+        <a href="index.html" class="logo">QSTNvaU</a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--drop">Руководство</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-submenu__item">
+                <ul class="dropdown-submenu__list">
+                  <li class="dropdown-submenu__list-item"><a href="ministry.html">Министерство</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="rector.html">Ректорат</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="dean.html">Деканат</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="kafedra.html">Кафедра</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--drop">Расписание</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-list__item"><a href="images/first_course.pdf" class="dropdown-list__link">Первый
+                  курс</a>
+              </li>
+              <li class="dropdown-list__item"><a href="images/second_course.pdf" class="dropdown-list__link">Второй
+                  курс</a>
+              </li>
+              <li class="dropdown-list__item"><a href="images/third_course.pdf" class="dropdown-list__link">Третий
+                  курс</a>
+              </li>
+              <li class="dropdown-list__item"><a href="images/fourth_course.pdf" class="dropdown-list__link">Четвертый
+                  курс</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link nav__link--drop">Для студентов</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-list__item"><a href="teachers.html" class="dropdown-list__link">Учителя</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Ресурсы</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Hemis</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Контракт</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link nav__link--drop">Спорт</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Спорт клуб</a></li>
+              <li class="dropdown-list__item"><a href="achievements.html" class="dropdown-list__link">Достижения</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link nav__link--drop">Библиотека</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-list__item"><a href="book.html" class="dropdown-list__link">Книги</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Полезные сайты</a></li>
+              <li class="dropdown-list__item"><a href="resources.html" class="dropdown-list__link">Ресурсы</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a class="nav__link-media" href="#">Наука</a></li>
+          <li class="nav__item"><a class="nav__link-media" href="order.html">Приказы</a></li>
+        </ul>
+      </nav>
+      <button class="burger" aria-label="Open menu">
+        <span></span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="header__main">
+        <div class="header__text wow animate__animated animate__fadeInLeft animate__slow animate__delay-0.6s">
+          <h1 class="sub__title">Преподовательский состав и их биография</h1>
+        </div>
+        <div class="header__image wow animate__animated animate__fadeInRight animate__slow animate__delay-0.6s">
+          <a href="index.html"><img class="header__image-photo" src="images/1QSTK logo.png" alt="image"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="teach">
+      <div class="container">
+        <div class="teach__main">
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/5_teacher.webp">
+              <img src="images/5_teacher.png" alt="Заведующий кафедрой">
+            </picture>
+            <a href="#modal_teach1" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach1" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Каримов Абдухамид</h3>
+                    <p>Заведующий кафедрой</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/9_teacher.webp">
+              <img src="images/9_teacher.png" alt="Декан факультета">
+            </picture>
+            <a href="#modal_teach2" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach2" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Давлетмуратов Султанбек</h3>
+                    <p>Декан факультета (PhD), доцент</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/8_teacher.webp">
+              <img src="images/8_teacher.png" alt="Заместитель декана">
+            </picture>
+            <a href="#modal_teach3" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach3" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Жураев Иброхим</h3>
+                    <p>Заместитель декана</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/11_teacher.webp">
+              <img src="images/11_teacher.png" alt="Заместитель декана">
+            </picture>
+            <a href="#modal_teach4" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach4" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Азамов Бахтиёр</h3>
+                    <p>Заместитель декана</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="teach__main">
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/10_teacher.webp">
+              <img src="images/10_teacher.png" alt="Старший преподаватель">
+            </picture>
+            <a href="#modal_teach5" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach5" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Рашидов Бохтиёр Пулатович </h3>
+                    <p>Старший преподаватель по хоккею на льду.</p>
+                    <p>Судья хоккея с шайбой - первой категории.</p>
+                    <p>Соавтор книги – Повышение спортивно - педагогического мастерства (ХОККЕЙ)</p>
+                    <p>С 1975-1978 года выступал за команду Мастеров «Бинокор» (г.Ташкент) в Чемпионате СССР среди
+                      команд Первой Лиги класса «А»</p>
+                    <p>В 2019 года в составе ХК «Хумо» является победителем Республики Узбекистан регулярного турнира
+                      чемпионата Узбекистана по хоккею с шайбой </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/7_teacher.webp">
+              <img src="images/7_teacher.png" alt="Старший преподаватель">
+            </picture>
+            <a href="#modal_teach6" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach6" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Светлана Фёдорова</h3>
+                    <p>Старший преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/3_teacher.webp">
+              <img src="images/3_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach7" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach7" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Хожиев Шохрух</h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/4_teacher.webp">
+              <img src="images/4_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach8" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach8" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Бураимов Исроил</h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="teach__main">
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/2_teacher.webp">
+              <img src="images/2_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach9" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach9" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Реджепов Жасур Куатович </h3>
+                    <p>Преподаватель по хоккею.</p>
+                    <p>За время работы в университете выпустил 9 статей и тезисов в различных журналах.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/6_teacher.webp">
+              <img src="images/6_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach10" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach10" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Нурмаматова Сарвиноз</h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/13_teacher.webp">
+              <img src="images/13_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach11" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach11" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Рахимов Абубакир</h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/12_teacher.webp">
+              <img src="images/12_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach12" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach12" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Агзамова Зулфия Ахмадали қизи</h3>
+                    <p>Преподаватель по хоккею на траве.</p>
+                    <p>Чемпионка СССР среди 1974-1975 г.р. Неоднократная Чемпионка и призёр Узбекистана. Мастер спорта
+                      Узбекистана. Участница 2-х Азиатских игр (1994 г. и 1998 г.).</p>
+                    <p>Написала один тесиз и одну международную статью.</p>
+                    <p>Прошла технический курс для тренеров и получила сертификат LEVEL 2 по хоккею на траве.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="teach__main">
+          <div class="teach__card">
+            <picture class="teach__card-source">
+              <source type="image/webp" srcset="images/14_teacher.webp">
+              <img src="images/14_teacher.png" alt="Преподаватель">
+            </picture>
+            <a href="#modal_teach13" data-toggle="modal" class="img-thumbnail teach__card-btn">Биография</a>
+            <div id="modal_teach13" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close btn__modal" data-dismiss="modal"
+                      aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal__body teachModal__body">
+                    <h3 class="modal__title">Рискулов Дониёр</h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer footer__secondBg">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__content1">
+          <h3 class="footer__content1-title">Университет</h3>
+          <a href="#" class="footer__content1-link">Международные
+            и местные связи</a>
+          <a href="#" class="footer__content1-link">Реквизиты</a>
+        </div>
+        <div class="footer__content2">
+          <h3 class="footer__content1-title">Источники и адрес</h3>
+          <p class="footer__content2-location">Чирчик, ул. Спортсменов, 19</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/main.min.js"></script>
+<script>new WOW().init();</script>
+
+</html>

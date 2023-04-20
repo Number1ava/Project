@@ -273,6 +273,7 @@ h6 {
 }
 .sub__title {
   font-size: 28px;
+  max-width: 390px;
 }
 .header__image {
   &-photo {
@@ -1062,4 +1063,42 @@ button {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+// teacher.html ================
+.teach {
+  min-height: 400px;
+  padding: 20px 0px 20px 0px;
+}
+.teachModal__body > p {
+  margin: 14px 0;
+  text-align: start;
+  font-size: 20px;
+}
+.teach__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.teach__card {
+  max-width: 220px;
+  text-align: center;
+  &-source > img {
+    max-width: 100%;
+    max-height: 280px;
+    background-color: #004fa5;
+    border-radius: 5px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 14px;
+  }
+  &-btn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #004fa5;
+  }
+}
+
 @import "media";
