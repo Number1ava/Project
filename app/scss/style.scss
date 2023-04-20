@@ -862,7 +862,6 @@ button {
   border-radius: 5px;
 }
 
-
 // book.html
 
 .books {
@@ -1030,4 +1029,37 @@ button {
   margin-top: 14px;
 }
 
+.club {
+  min-height: 400px;
+  padding: 20px 0px 20px 0px;
+}
+.club__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: end;
+  text-align: center;
+  padding-top: 40px;
+}
+.club__card {
+  max-width: 200px;
+}
+.club__card-img {
+  max-width: 220px;
+  &--height {
+    margin-bottom: 70px;
+  }
+  &--height2 {
+    max-width: 190px;
+  }
+}
+
+.club__card-btn {
+  border: none;
+  background-color: #0061ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
 @import "media";
