@@ -349,6 +349,14 @@
     margin: 4px 0 0 6px;
     transform: rotate(-90deg);
   }
+  .news {
+    &__img {
+      height: 170px;
+    }
+  }
+  .news_block {
+    max-width: 280px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -411,6 +419,14 @@
       max-width: 72%;
     }
   }
+  .news {
+    &__img {
+      height: 160px;
+    }
+  }
+  .news_block {
+    max-width: 250px;
+  }
   .teach__main {
     margin-bottom: 30px;
   }
@@ -428,11 +444,11 @@
   }
   .news {
     &__img {
-      height: 150px;
+      height: 160px;
     }
   }
   .news_block {
-    max-width: 230px;
+    max-width: 234px;
   }
   .games {
     max-width: 94%;
@@ -499,7 +515,7 @@
     flex-direction: column;
     align-items: center;
     &__img {
-      height: 220px;
+      height: 250px;
     }
   }
   .news_block {
@@ -946,7 +962,7 @@
   }
   .news {
     &__img {
-      height: 220px;
+      height: 230px;
     }
   }
   .news_block {

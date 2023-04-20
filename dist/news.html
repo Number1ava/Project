@@ -5,11 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Фигурное катание</title>
+  <title>новости</title>
   <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
 <body class="hidden">
+  <div class="loader__wrap" role="alertdialog" aria-busy="true" aria-live="polite" aria-label="Loading…">
+    <div class="loader">
+      <div class="spinner"></div>
+    </div>
+  </div>
   <div class="overlay"></div>
   <header class="header header__background">
     <div class="container__header">
@@ -56,7 +61,7 @@
               <li class="dropdown-list__item mobile-back"><a href="#"
                   class="dropdown-list__link mobile-back__link">Назад</a></li>
               <li class="dropdown-list__item"><a href="teachers.html" class="dropdown-list__link">Учителя</a></li>
-              <li class="dropdown-list__item"><a href="news.html" class="dropdown-list__link">Новости</a></li>
+              <li class="dropdown-list__item"><a href="news.html" class="dropdown-list__link">новости</a></li>
               <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Ресурсы</a></li>
               <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Hemis</a></li>
               <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Контракт</a></li>
@@ -92,52 +97,66 @@
     </div>
     <div class="container">
       <div class="header__main">
-        <div class="header__text wow animate__animated animate__fadeInLeft animate__slow animate__delay-0.6s">
-          <h1 class="sub__title">Спортивная деятельность Фигурное катание</h1>
+        <div class="header__text">
+          <h1 class="sub__title">Страница новостей</h1>
         </div>
-        <div class="header__image wow animate__animated animate__fadeInRight animate__slow animate__delay-0.6s">
-          <a href="index.html"><img class="header__image-photo header__image-photo--4SportsLogo"
-              src="images/figure__image.png" alt="image"></a>
+        <div class="header__image">
+          <a href="index.html"><img class="header__image-photo" src="images/1QSTK logo.png" alt="image"></a>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section class="figure">
+    <section class="MainNews">
       <div class="container">
-        <h3 class="managers__title figure__title">История развития фигурного катания</h3>
-        <article class="figure__text main__Bigtext">
-          История развития фигурного катания в Узбекистане началась с вводом в строй в 1970 году в Ташкенте Ледового
-          дворца спорта «Юбилейный». Спортсмены Узбекистана регулярно входили в состав сборной команды СССР по фигурному
-          катанию. После обретения независимости Республика Узбекистан впервые представила самостоятельную команду на
-          XVII Зимних Олимпийских играх в Лиллехаммере. Несмотря на то, что около 15 лет такого вида спорта как фигурное
-          катание не было в республике и что климатические условия региона, где расположена страна, не позволяют на
-          протяжении года регулярно заниматься зимними видами спорта, наши спортсмены принимали участие уже в семи
-          олимпийских играх, вплоть до 2018 года.
-          В настоящее время в республике действует 6 ледовых площадок, работает 6 тренеров фигурного катания и есть свой
-          судья международной категории Нуманова С.Х. После выхода Постановления Президента Республики Узбекистан, от
-          04.02.2020 г. № ПП-4583, Ассоциации зимних видов спорта, их территориальным подразделениям, профессиональным
-          клубам и частным детским спортшколам по зимним видам спорта предоставили льготы, в настоящее время в регионах
-          построили 2 крытые площадки с ледовым покрытием из легких конструкций по международным стандартам с
-          современным спорт инвентарем. Начиная с 2021-2022 учебного года впервые в рамках направлений бакалавриата
-          выделили места по направлению «Фигурное катание». На кафедре работают: преподаватель Нурмаматова С и старший
-          преподаватель, МС по фигурному катанию, чемпионка Узбекистана 1994-1996 годов Федорова С.В. В настоящее время
-          по направлению «Фигурное катание» при Узбекском Государственном Университете Физической культуры и спорта
-          обучается 4 студента очного отделения и 4 студента заочного отделения. Студенты на кафедре проходят два
-          предмета: Теория и методика фигурного катания и Повышение спортивно-педагогического мастерства. Гордостью
-          кафедры считается студент 1 курса, чемпион Республики Узбекистан в парном фигурном катании, КМС Ташмухамедов
-          Ж.Ш.
-          За год работы направления «Фигурное катание» созданы учебные и рабочие программы по фигурному катанию,
-          выпущено учебное пособие “Теория и методика фигурного катания».
-
-        </article>
-        <div class="figure__main">
-          <div class="topBlock__images">
-            <img src="images/figure_img1.png" alt="Фото фигурного катания">
-            <img src="images/figure_img2.png" alt="Фото фигурного катания">
+        <div class="news">
+          <div class="news_block">
+            <img class="news__img" src="images/news/news_Img1.jpg" alt="Фото">
+            <details>
+              <summary>Qishki sport turlari nazariyasi va uslubiyati kafedraning talabalari tog' chang'i bo'yicha
+                markaziy osiyo kubogida ishtiroki.</summary>
+              <p class="news__descriptions">30 yanvar kuni Qirg'iziston Respublikasidagi “Orlovka” tog'-chang'i dam
+                olish maskani Markaziy Osiyo mamlakatlari o'rtasida tog' chang'isi bo'yicha musobaqalar boshlandi. Ushbu
+                tadbir doirasida FIS startlardan tashqari, ishtirokchilar nufuzli musobaqalarda qatnashish uchun zarur
+                bo'lgan FIS ballarini oshirishlari mumkin bo'ladi.
+                Talabalarimiz
+                Gayupov Arman 2 ta bronza medal Nazarov Medet 1 kumush medal 1 bronza medal Kovaleva Valeriya 1 kumush
+                medal 3 bronza medali. Musobaqa 5 fevralgacha bo'lib o'tadi.</p>
+            </details>
           </div>
-          <div class="downBlock__images">
-            <img src="images/figure_img3.png" alt="Фото фигурного катания">
+          <div class="news_block">
+            <img class="news__img" src="images/news/news_Img2.jpg" alt="Фото">
+            <details>
+              <summary>O'zDJTSU talabalari qishki universiadada ishtirok etadi!</summary>
+              <p class="news__descriptions">Xabaringiz bor, joriy yilning 12-22-yanvar kunlari XXXI Butunjahon qishki
+                Universiada o'yinlariga AQSh mezbonlik qilmoqda. Musobaqalar Leyk-Plesid shahrida bo'lib o'tadi.
+
+                Dunyoning 50 dan ortiq mamlakati ishtirok etishi ko'zda tutilayotgan mazkur musobaqada O'zbekiston
+                delegasiyasi ham qatnashadi. Hamyurtlarimiz tog' chang'isi, snoubord hamda figurali uchish sport
+                turlarida jami 13 nafar atlet bilan bugun erta tongda okean ortiga yo'l oldi.
+
+                E'tiborli jihati shundaki, ularning 6 nafari O'zbekiston davlat jismoniy tarbiya va sport universiteti
+                talabalaridir!</p>
+            </details>
+          </div>
+          <div class="news_block">
+            <img class="news__img" src="images/news/news_Img3.jpg" alt="Фото">
+            <details>
+              <summary>O'zbekiston sharafini yuksaklarga ko'tarayotgan O'zDJTSU talabalari!</summary>
+              <p class="news__descriptions">Joriy yilning 26 martidan 7 apreliga qadar Markaziy Osiyo mamlakatlari
+                o'rtasida tog' chang'i sport turi bo'yicha musobaqalar bo'lib o'tdi.
+                ahamiyatlisi, musobaqada O'zbekiston davlat jismoniy tarbiya va sport universitetining Qishki sport
+                turlari nazariyasi va uslubiyati kafedrasi talabalari ham ishtirok etib, yurtimiz sharafini munosib
+                ravishda himoya qilishdi! Unga ko'ra:
+                Arman Gaipov – slalom va slalom gigant yo'nalishlarida 2-o'rinni qayd etib, slalom gigantida umumiy
+                hisobda 3-o'rinni;
+                Medet Nazarov –kombinatsiya (slalom-slalom gigant) 1-o'rin U-21, umumiy hisob 3-o'rin, slalom gigant
+                yo'nalishida 1-o'rin, umumiy hisobda 1-o'rin;
+                Aqilbek Buxarboyev – slalom gigantda 2-o'rin, kombinatsiyada esa 3-o'rin va U-21 super gigantda
+                3-o'rinlarni zabt etdilar.
+
+                Sportchilarimizni ushbu g'alabalari bilan muborakbod etamiz!</p>
+            </details>
           </div>
         </div>
       </div>
@@ -161,6 +180,5 @@
   </footer>
 </body>
 <script src="js/main.min.js"></script>
-<script>new WOW().init();</script>
 
 </html>
