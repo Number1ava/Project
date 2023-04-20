@@ -197,6 +197,20 @@
       margin-bottom: 80px;
     }
   }
+  .header__main--box {
+    margin-top: 0;
+    margin-bottom: 40px;
+    flex-direction: column-reverse;
+  }
+  .header__image-media {
+    margin-bottom: 0;
+  }
+  .header__text-center {
+    margin: 0 auto;
+  }
+  .sub__title--size {
+    display: flex;
+  }
 
   .counter {
     &__main {
@@ -836,6 +850,12 @@
   .burger {
     margin-bottom: 120px;
   }
+  .burger__media {
+    margin-bottom: 60px;
+  }
+  .header__main--box {
+    margin-bottom: 0;
+  }
   .header {
     &__main {
       padding-top: 0px;
@@ -982,6 +1002,11 @@
       width: 100%;
       max-height: 340px;
     }
+  }
+  .sub__title--size {
+    max-width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 380px) {

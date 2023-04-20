@@ -266,6 +266,12 @@ h6 {
   justify-content: space-between;
   align-items: center;
 }
+.header__main--box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+}
 .header__text {
   max-width: 460px;
 }
@@ -275,6 +281,12 @@ h6 {
 .sub__title {
   font-size: 28px;
   max-width: 410px;
+}
+.sub__title--size {
+  font-size: 26px;
+}
+.header__image-logo {
+  max-width: 220px;
 }
 .header__image {
   &-photo {
@@ -655,6 +667,9 @@ button {
     max-width: 240px;
     max-height: 290px;
     border-radius: 5px;
+    &--height {
+      max-height: 190px;
+    }
   }
   &__descr {
     max-width: 420px;
