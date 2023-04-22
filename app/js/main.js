@@ -150,6 +150,50 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  $('.relationship__sliders').slick({
+    centerMode: true,
+    arrows: false,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    autoplay: true,
+    speed: 600,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 884,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 566,
+        settings: {
+          centerMode: false,
+          slidesToScroll: 2,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 514,
+        settings: {
+          slidesToScroll: 1,
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 420,
+        settings: {
+          centerMode: false,
+          slidesToScroll: 1,
+          slidesToShow: 1
+        }
+      },
+    ]
+  });
+
   $(function () {
     $('.sliders_hockey').slick({
       infinite: true,

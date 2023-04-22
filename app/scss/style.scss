@@ -337,6 +337,28 @@ h6 {
   }
 }
 
+// section relationship ================
+.relationship {
+  min-height: 264px;
+}
+.relationship__block {
+  padding: 14px 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  &-img {
+    width: 49%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #004fa5;
+    border-radius: 5px;
+  }
+  &-name {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
 .sports {
   min-height: 500px;
   padding: 60px 0;
