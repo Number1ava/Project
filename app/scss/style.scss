@@ -347,8 +347,8 @@ h6 {
   border-radius: 5px;
   background-color: white;
   &-img {
-    width: 49%;
-    height: 120px;
+    width: 47%;
+    height: 130px;
     margin: 0 auto;
     background-color: #004fa5;
     border-radius: 5px;
@@ -880,7 +880,7 @@ button {
     cursor: pointer;
   }
   .video__block-button > img {
-    width: 70px;
+    width: 60px;
   }
 }
 
@@ -1144,6 +1144,24 @@ button {
     color: white;
     font-weight: bold;
     background-color: #004fa5;
+  }
+}
+
+// hemis.html =================
+.hemis {
+  min-height: 200px;
+  padding: 50px 0px;
+  text-align: center;
+  &__btn {
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #0061ff;
+    border-radius: 5px;
+  }
+  &__video {
+    margin-bottom: 20px;
   }
 }
 
