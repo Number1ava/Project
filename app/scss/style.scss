@@ -1165,4 +1165,30 @@ button {
   }
 }
 
+// studResource.html ================
+.studResource {
+  &__img {
+    max-width: 90%;
+    height: 160px;
+    border-radius: 10%;
+  }
+  &__card {
+    background-color: #004fa5;
+    &::before {
+      border-top: transparent;
+      border-right: transparent;
+    }
+  }
+  &__title {
+    color: white;
+  }
+  &__btn {
+    font-weight: bold;
+    color: #004fa5;
+    background-color: white;
+    &:hover {
+      color: white;
+    }
+  }
+}
 @import "media";
