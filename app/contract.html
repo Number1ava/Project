@@ -5,11 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Фигурное катание</title>
+  <title>Деканат</title>
   <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
 <body class="hidden">
+  <div class="loader__wrap" role="alertdialog" aria-busy="true" aria-live="polite" aria-label="Loading…">
+    <div class="loader">
+      <div class="spinner" style="font-size:16px">
+        <div class="head"></div>
+      </div>
+    </div>
+  </div>
   <div class="overlay"></div>
   <header class="header header__background">
     <div class="container__header">
@@ -88,57 +95,34 @@
       <button class="burger" aria-label="Open menu">
         <span></span>
       </button>
-    </div>
-    <div class="container">
       <div class="header__main">
-        <div class="header__text wow animate__animated animate__fadeInLeft animate__slow animate__delay-0.6s">
-          <h1 class="sub__title">Спортивная деятельность Фигурное катание</h1>
+        <div class="header__text">
+          <h1 class="sub__title">Контракт</h1>
         </div>
-        <div class="header__image wow animate__animated animate__fadeInRight animate__slow animate__delay-0.6s">
-          <a href="index.html"><img class="header__image-photo header__image-photo--4SportsLogo"
-              src="images/figure__image.png" alt="image"></a>
+        <div class="header__image">
+          <a href="index.html"><img class="header__image-photo" src="images/1QSTK logo.png" alt="image"></a>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section class="figure">
+    <section class="resources hemis">
       <div class="container">
-        <h3 class="managers__title figure__title">История развития фигурного катания</h3>
-        <article class="figure__text main__Bigtext">
-          История развития фигурного катания в Узбекистане началась с вводом в строй в 1970 году в Ташкенте Ледового
-          дворца спорта «Юбилейный». Спортсмены Узбекистана регулярно входили в состав сборной команды СССР по фигурному
-          катанию. После обретения независимости Республика Узбекистан впервые представила самостоятельную команду на
-          XVII Зимних Олимпийских играх в Лиллехаммере. Несмотря на то, что около 15 лет такого вида спорта как фигурное
-          катание не было в республике и что климатические условия региона, где расположена страна, не позволяют на
-          протяжении года регулярно заниматься зимними видами спорта, наши спортсмены принимали участие уже в семи
-          олимпийских играх, вплоть до 2018 года.
-          В настоящее время в республике действует 6 ледовых площадок, работает 6 тренеров фигурного катания и есть свой
-          судья международной категории Нуманова С.Х. После выхода Постановления Президента Республики Узбекистан, от
-          04.02.2020 г. № ПП-4583, Ассоциации зимних видов спорта, их территориальным подразделениям, профессиональным
-          клубам и частным детским спортшколам по зимним видам спорта предоставили льготы, в настоящее время в регионах
-          построили 2 крытые площадки с ледовым покрытием из легких конструкций по международным стандартам с
-          современным спорт инвентарем. Начиная с 2021-2022 учебного года впервые в рамках направлений бакалавриата
-          выделили места по направлению «Фигурное катание». На кафедре работают: преподаватель Нурмаматова С и старший
-          преподаватель, МС по фигурному катанию, чемпионка Узбекистана 1994-1996 годов Федорова С.В. В настоящее время
-          по направлению «Фигурное катание» при Узбекском Государственном Университете Физической культуры и спорта
-          обучается 4 студента очного отделения и 4 студента заочного отделения. Студенты на кафедре проходят два
-          предмета: Теория и методика фигурного катания и Повышение спортивно-педагогического мастерства. Гордостью
-          кафедры считается студент 1 курса, чемпион Республики Узбекистан в парном фигурном катании, КМС Ташмухамедов
-          Ж.Ш.
-          За год работы направления «Фигурное катание» созданы учебные и рабочие программы по фигурному катанию,
-          выпущено учебное пособие “Теория и методика фигурного катания».
-
-        </article>
-        <div class="figure__main">
-          <div class="topBlock__images">
-            <img src="images/figure_img1.png" alt="Фото фигурного катания">
-            <img src="images/figure_img2.png" alt="Фото фигурного катания">
-          </div>
-          <div class="downBlock__images">
-            <img src="images/figure_img3.png" alt="Фото фигурного катания">
+        <div class="hemis__video">
+          <div class="video__block">
+            <div class="video__block-inner">
+              <picture>
+                <source srcset="https://img.youtube.com/vi_webp/Gx03DeWoWYs/maxresdefault.webp" type="image/webp">
+                <img class="video__block-content" src="https://img.youtube.com/vi/Gx03DeWoWYs/maxresdefault.jpg"
+                  alt="видео">
+              </picture>
+              <button class="video__block-button" data-video-id="Gx03DeWoWYs">
+                <img src="images/play-button-svgrepo-com (3).svg" alt="иконка">
+              </button>
+            </div>
           </div>
         </div>
+        <button class="hemis__btn"><a href="https://kontrakt.edu.uz/">Перейти на сайт</a></button>
       </div>
     </section>
   </main>
@@ -160,6 +144,5 @@
   </footer>
 </body>
 <script src="js/main.min.js"></script>
-<script>new WOW().init();</script>
 
 </html>
