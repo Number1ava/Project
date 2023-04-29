@@ -13,6 +13,13 @@
   .slick-slide {
     margin: 0 5px;
   }
+
+  .ethics__card {
+    max-width: 240px;
+  }
+  .ethics__card-text {
+    font-size: 15px;
+  }
 }
 @media (max-width: 1200px) {
   .header {
@@ -61,6 +68,15 @@
   }
   .games {
     max-width: 74%;
+  }
+  .ethics__card {
+    max-width: 230px;
+  }
+  .ethics__card-img {
+    max-height: 300px;
+  }
+  .ethics__card-text {
+    font-size: 14.6px;
   }
 }
 @media (max-width: 1061px) {
@@ -371,6 +387,19 @@
   .news_block {
     max-width: 280px;
   }
+  .ethics__main {
+    padding: 40px 0 0 0;
+  }
+  .ethics__card {
+    max-width: 290px;
+    margin-bottom: 40px;
+  }
+  .ethics__card-img {
+    max-height: 300px;
+  }
+  .ethics__card-text {
+    font-size: 14.6px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -398,6 +427,15 @@
     &--height2 {
       max-width: 190px;
     }
+  }
+  .ethics__main {
+    justify-content: space-around;
+  }
+  .ethics__card {
+    max-width: 330px;
+  }
+  .ethics__card-text {
+    font-size: 16px;
   }
 }
 @media (max-width: 972px) {
@@ -538,6 +576,29 @@
   }
   .games {
     max-width: 85%;
+  }
+  .ethics__main {
+    justify-content: space-between;
+  }
+  .ethics__card {
+    max-width: 280px;
+  }
+  .ethics__card-text {
+    font-size: 15.4px;
+  }
+}
+@media (max-width: 660px) {
+  .ethics__main {
+    justify-content: center;
+  }
+  .ethics__card {
+    max-width: 370px;
+  }
+  .ethics__card-img {
+    max-height: 340px;
+  }
+  .ethics__card-text {
+    font-size: 17px;
   }
 }
 @media (max-width: 641px) {
@@ -1127,5 +1188,18 @@
   }
   .club__cards {
     width: 100%;
+  }
+
+  .ethics__card {
+    max-width: 100%;
+  }
+  .ethics__card-img {
+    max-height: 320px;
+  }
+  .ethics__card-text {
+    font-size: 15px;
+  }
+  .ethics__card-btn {
+    font-size: 14px;
   }
 }
