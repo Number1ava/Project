@@ -155,10 +155,10 @@ window.addEventListener('DOMContentLoaded', () => {
     arrows: false,
     centerPadding: '60px',
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     autoplay: true,
     speed: 600,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 884,

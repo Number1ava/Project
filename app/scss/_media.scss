@@ -292,7 +292,7 @@
   .dropdown-submenu__list-item a,
   .dropdown-list__link {
     padding: 20px 30px;
-    width: 100%;
+    width: 124%;
     display: flex;
     justify-content: start;
     background: transparent;
@@ -518,6 +518,9 @@
   }
 }
 @media (max-width: 782px) {
+  .nav {
+    width: 48%;
+  }
   .blocks {
     padding: 40px 20px;
     &__img {
@@ -603,7 +606,7 @@
 }
 @media (max-width: 641px) {
   .nav {
-    width: 45%;
+    width: 50%;
   }
   .nav__link,
   .dropdown-submenu__list-item a,
@@ -858,6 +861,9 @@
   }
 }
 @media (max-width: 520px) {
+  .nav {
+    width: 60%;
+  }
   .sports {
     padding: 0;
   }
@@ -902,7 +908,7 @@
 }
 @media (max-width: 480px) {
   .nav {
-    width: 55%;
+    width: 66%;
   }
 
   .nav__item {
@@ -977,6 +983,9 @@
         font-size: 18px;
       }
     }
+  }
+  .relationship__title {
+    font-size: 30px;
   }
   .person__descr {
     margin: 0 auto;
@@ -1054,6 +1063,10 @@
   }
 }
 @media (max-width: 440px) {
+  .nav {
+    width: 67%;
+  }
+
   .teach__main {
     justify-content: center;
   }
@@ -1072,9 +1085,13 @@
 }
 @media (max-width: 380px) {
   .nav {
-    width: 70%;
+    width: 77%;
   }
-
+  .nav__link,
+  .dropdown-submenu__list-item a,
+  .dropdown-list__link {
+    width: 123%;
+  }
   .header {
     &__text {
       max-width: 100%;
@@ -1121,6 +1138,9 @@
       height: 35px;
       font-size: 14px;
     }
+  }
+  .relationship__title {
+    font-size: 28px;
   }
   .modal__title {
     font-size: 15.7px;
