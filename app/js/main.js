@@ -70,6 +70,61 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // counter animation
+  let elements = document.querySelectorAll(".counter__main-count")
+
+  elements.forEach(function (item) {
+    // Add new attributes to the elements with the '.scroll-counter' HTML class
+    item.counterAlreadyFired = false
+    item.counterSpeed = item.getAttribute("data-counter-time") / 25
+    item.counterTarget = +item.innerText
+    item.counterCount = 0
+    item.counterStep = item.counterTarget / item.counterSpeed
+
+    item.updateCounter = function () {
+      item.counterCount = item.counterCount + item.counterStep
+      item.innerText = Math.ceil(item.counterCount)
+
+      if (item.counterCount < item.counterTarget) {
+        setTimeout(item.updateCounter, item.counterSpeed)
+      } else {
+        item.innerText = item.counterTarget
+      }
+    }
+  })
+
+  // Function to determine if an element is visible in the web page
+  let isElementVisible = function isElementVisible(el) {
+    let scroll = window.scrollY || window.pageYOffset
+    let boundsTop = el.getBoundingClientRect().top + scroll
+    let viewport = {
+      top: scroll,
+      bottom: scroll + window.innerHeight,
+    }
+    let bounds = {
+      top: boundsTop,
+      bottom: boundsTop + el.clientHeight,
+    }
+    return (
+      (bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom) ||
+      (bounds.top <= viewport.bottom && bounds.top >= viewport.top)
+    )
+  }
+
+  // Funciton that will get fired uppon scrolling
+  let handleScroll = function handleScroll() {
+    elements.forEach(function (item, id) {
+      if (true === item.counterAlreadyFired) return
+      if (!isElementVisible(item)) return
+      item.updateCounter()
+      item.counterAlreadyFired = true
+    })
+  }
+
+  // Fire the function on scroll
+  window.addEventListener("scroll", handleScroll)
+
+
   // slider
   $(function () {
     $('.sliders').slick({
