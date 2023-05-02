@@ -513,6 +513,9 @@
   .teach__card {
     max-width: 180px;
   }
+  .hcGrass__img {
+    width: 70%;
+  }
 }
 
 @media (max-width: 881px) {
@@ -625,6 +628,9 @@
   }
   .ethics__card-text {
     font-size: 15.4px;
+  }
+  .hcGrass__img {
+    width: 80%;
   }
 }
 @media (max-width: 660px) {
@@ -872,6 +878,9 @@
     &__title {
       font-size: 22px;
     }
+  }
+  .hcGrass__img {
+    width: 100%;
   }
 }
 @media (max-width: 520px) {

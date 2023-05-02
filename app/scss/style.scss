@@ -1248,4 +1248,31 @@ button {
 .noCorruption__img {
   width: 90%;
 }
+
+.requisites {
+  min-height: 100px;
+  padding: 20px 0px 0px 0px;
+  &__main {
+    margin: 40px 0;
+  }
+}
+
+.requisites__text {
+  margin-bottom: 20px;
+}
+.requisites__link {
+  color: #004fa5;
+  text-decoration: underline;
+}
+
+.grass {
+  min-height: 400px;
+  padding: 20px 0px 0px 0px;
+}
+.hcGrass__img {
+  display: block;
+  width: 55%;
+  margin: 0 auto 40px auto;
+  border-radius: 4px;
+}
 @import "media";
