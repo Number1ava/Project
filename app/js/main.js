@@ -206,7 +206,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   $('.relationship__sliders').slick({
-    centerMode: true,
     arrows: false,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -234,6 +233,7 @@ window.addEventListener('DOMContentLoaded', () => {
       {
         breakpoint: 514,
         settings: {
+          centerMode: true,
           slidesToScroll: 1,
           slidesToShow: 1
         }
@@ -248,103 +248,26 @@ window.addEventListener('DOMContentLoaded', () => {
       },
     ]
   });
-
-  $(function () {
-    $('.sliders_hockey').slick({
-      infinite: true,
-      arrows: false,
-      speed: 600,
-      autoplaySpeed: 3000,
-      slidesToShow: 4,
-      slidesToScroll: 2,
-      autoplay: true,
-      responsive: [
-        {
-          breakpoint: 1145,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
-          }
-        },
-        {
-          breakpoint: 881,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 641,
-          settings: {
-            dots: false,
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            centerPadding: '150px',
-          }
-        },
-        {
-          breakpoint: 620,
-          settings: {
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            centerPadding: '130px',
-          }
-        },
-        {
-          breakpoint: 580,
-          settings: {
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            centerPadding: '100px',
-          }
-        },
-        {
-          breakpoint: 552,
-          settings: {
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            centerPadding: '80px',
-          }
-        },
-        {
-          breakpoint: 520,
-          settings: {
-            centerMode: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        },
-        {
-          breakpoint: 481,
-          settings: {
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        },
-        {
-          breakpoint: 430,
-          settings: {
-            centerMode: true,
-            centerPadding: '20px',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        },
-        {
-          breakpoint: 380,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        }
-      ]
-    });
+  $('.sliders_hockey').slick({
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    speed: 600,
+    autoplaySpeed: 3000,
+    infinite: true,
+    responsive: [{
+      breakpoint: 578,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    }]
   });
 
   // book sliders
