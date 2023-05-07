@@ -354,8 +354,9 @@ h6 {
   text-align: center;
   border-radius: 5px;
   background-color: white;
+  max-width: 390px;
   &-img {
-    width: 58%;
+    width: 56%;
     height: 140px;
     margin: 0 auto;
     border-radius: 5px;
@@ -810,12 +811,13 @@ button {
   }
 }
 .sliders_hockey {
+  display: flex;
+  align-items: center;
   margin-bottom: 40px;
   &-img {
-    width: 260px;
-  }
-  &-img2 {
-    width: 190px;
+    width: 59%;
+    height: 190px;
+    margin: 0 auto;
   }
 }
 

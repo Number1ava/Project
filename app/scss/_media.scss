@@ -451,6 +451,12 @@
   .ethics__card-text {
     font-size: 16px;
   }
+  .sliders_hockey {
+    &-img {
+      width: 66%;
+      height: 160px;
+    }
+  }
 }
 @media (max-width: 972px) {
   .figure {
@@ -606,6 +612,12 @@
   .slick-slide {
     margin: 0 10px;
   }
+  .sliders_hockey {
+    &-img {
+      width: 65%;
+      height: 140px;
+    }
+  }
   .news {
     flex-direction: column;
     align-items: center;
@@ -648,6 +660,12 @@
   }
   .noCorruption__img {
     width: 82%;
+  }
+  .sliders_hockey {
+    &-img {
+      width: 70%;
+      height: 120px;
+    }
   }
 }
 @media (max-width: 641px) {
@@ -882,6 +900,12 @@
   .hcGrass__img {
     width: 100%;
   }
+  .sliders_hockey {
+    &-img {
+      width: 80%;
+      height: 160px;
+    }
+  }
 }
 @media (max-width: 520px) {
   .nav {
@@ -1101,6 +1125,12 @@
   }
   .noCorruption__img {
     width: 90%;
+  }
+  .sliders_hockey {
+    &-img {
+      width: 78%;
+      height: 200px;
+    }
   }
 }
 @media (max-width: 440px) {
