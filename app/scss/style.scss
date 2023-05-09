@@ -1215,8 +1215,8 @@ button {
 // ethics.html ====================
 .ethics__main {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 40px 0;
 }
 .ethics__card {
@@ -1229,6 +1229,7 @@ button {
 }
 .ethics__card-img {
   width: 100%;
+  height: 340px;
   max-height: 310px;
   border-radius: 5px;
 }
