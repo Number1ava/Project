@@ -345,8 +345,12 @@ h6 {
 // section relationship ================
 .relationship {
   min-height: 264px;
+
   &__title {
     margin-top: 70px;
+  }
+  &__sliders {
+    margin-bottom: 80px;
   }
 }
 .relationship__block {
@@ -514,7 +518,6 @@ button {
 
 .footer {
   min-height: 200px;
-  margin-top: 100px;
   background: linear-gradient(88.32deg, #005c91 53.85%, #00b4d6 128.67%);
   border-radius: 20px 20px 0px 0px;
   &__wrapper {
@@ -983,7 +986,7 @@ button {
   padding: 20px 0px 40px 0px;
   &__img {
     width: 380px;
-    height: 260px;
+    height: 240px;
     &--height {
       height: 440px;
     }
