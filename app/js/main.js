@@ -262,7 +262,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesToShow: 2,
         slidesToScroll: 2,
       },
-      breakpoint: 480,
+      breakpoint: 481,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -278,7 +278,7 @@ window.addEventListener('DOMContentLoaded', () => {
       speed: 500,
       autoplaySpeed: 2900,
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
       autoplay: true,
       responsive: [
         {
